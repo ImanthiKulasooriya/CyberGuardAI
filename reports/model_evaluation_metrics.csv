@@ -1,0 +1,2 @@
+model,accuracy,precision,attack_recall,f1_score,roc_auc,average_precision,true_negatives,false_positives,false_negatives,true_positives,false_positive_rate,false_negative_rate
+Logistic Regression,0.8095151338483214,0.7535532864692903,0.9718962322421247,0.848909912426902,0.9553516583953583,0.9659158755942153,22591,14409,1274,44058,0.3894324324324324,0.028103767757875233

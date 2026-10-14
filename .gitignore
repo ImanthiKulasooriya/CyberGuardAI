@@ -68,3 +68,7 @@ frontend/dist/
 
 Thumbs.db
 .DS_Store
+# Feature metadata
+models/feature_names.txt
+cyberguard.db
+*.db

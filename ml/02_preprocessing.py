@@ -445,6 +445,22 @@ joblib.dump(
     preprocessor_path
 )
 
+# Save training medians for inference
+
+medians_path = (
+    MODELS_DIR / "training_medians.joblib"
+)
+
+joblib.dump(
+    train_medians.to_dict(),
+    medians_path
+)
+
+print(
+    f"Training medians saved to:"
+    f"\n{medians_path}"
+)
+
 print(
     f"\nPreprocessor saved to:"
     f"\n{preprocessor_path}"
